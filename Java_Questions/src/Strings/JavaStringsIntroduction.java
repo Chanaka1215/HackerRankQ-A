@@ -1,4 +1,4 @@
-/***
+package Strings; /***
  * Input Format
 
  The first line contains a string A. The second line contains another string B. The strings A & B are comprised of only lowercase English letters.
