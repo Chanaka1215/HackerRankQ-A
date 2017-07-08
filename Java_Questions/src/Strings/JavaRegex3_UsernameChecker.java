@@ -30,3 +30,16 @@ public class JavaRegex3_UsernameChecker {
         }
 
 }
+
+
+/**
+ *
+ * \^............... The beginning of a line
+ \$............... The end of a line
+ \w .............. A word character
+ \X{n,m}..... X, at least n but not more than m times
+
+ We need to place the \^ and \$ anchors at the beginning and ends of the String so that an invalid username with a valid username inside it doesn't get approved.
+
+ The extra backslash in \w is to "escape" the 2nd backslash character in a Java String.
+ */
